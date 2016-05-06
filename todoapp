@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+	<title>To Do Apps</title>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="todoapp.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+	<!--ESTOS LINKS VIENEN DEL EJERCICIO DASHBOARD: HAY QUE COPIAR LOS ARCHIVOS O LINKEARLOS DE FORMA REMOTA -->
+
+
+
+
+</head>
+<body>
+	<header class="">
+		<center><h1>To Do List App</h1></center>
+	</header>
+
+<!--CÓDIGO RECICLADO -->
+	<section class="container fixed" >
+		<div class="form-group">
+ 			<br>
+   			<textarea class="form-control" rows="4" id="tareaInput" placeholder="Añade algo a la lista"></textarea>
+		</div>
+		
+		<button id="btnAgregarTarea"><i class="fa fa-plus"> Añadir</i></button>
+        
+        <button id="quitaTodo"><i class=" fa fa-trash" aria-hidden="true"></i></button>
+
+       	<ul id="lista">       		
+       	</ul>
+
+       	
+	</section>
+	
+	
+	<!-- /CÓDIGO RECICLADO-->
+
+
+
+<script src="todoapp.js"></script>
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</body>
+</html>

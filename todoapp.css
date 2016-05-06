@@ -1,0 +1,75 @@
+header{
+	background-color: #c0c0c0;
+	margin-top: -20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.fixed{
+	position: fixed;
+}
+ul, li{
+	list-style: none;
+	margin-top: 5%;
+	margin-bottom: 5%:;
+}
+label{
+	width: 100%;
+}
+/*SCROLL BAR IN TEXTAREA*/
+textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+
+/*text-decoration: line-through;*/
+
+/*MEDIA QUERIES*/
+@media (min-width: 1025px){
+body {
+    width: 100%;
+	}
+.container{
+	width: 80%
+	}
+}
+@media (min-width: 700px; max-width: 1024px){
+body {
+    width: 100%;
+	}
+.container{
+	width: 80%
+	}
+}
+@media (min-width: 400px){
+body {
+    width: 100%;
+	}
+.container{
+	width: 80%
+	}
+}
+/*
+Resumen ejecutivo
+Por lo que debe poder agregar, eliminar y marcar como terminada una tarea. 
+La aplicación debe estar diseñada pensada en el celular por lo que debe hacer un diseño 100% responsive 
+orientado a ser usado en un celular.
+
+FUNCIONALIDAD
+
+La aplicación está dividida en 3 secciones (cabecera, sección para agregar una nueva tarea y la lista de tareas a agregar.
+
+La cabecera es fija al igual que la sección para agregar tareas nuevas, la única sección que tiene un scrollbar 
+son las secciones donde se despliegan las tareas agregadas.
+
+El usuario debe poner escribir una texto de más de una línea (textarea) y una vez que presione el botón agregar 
+este debe agregar la tarea a la lista
+
+No debe poderse agregar un texto en blanco.
+
+El checkbox en la tarea debe permitir tachar la tarea de la lista (ejemplo: ****terminar el specs antes de salir de viaje**** )
+
+El icono que aparece a la derecha de cada tarea debe ser un tacho de borrar (font-awesome) y al hacerle click 
+debemos poder eliminar la tarea de la lista.
+
+*/
